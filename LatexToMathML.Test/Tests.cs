@@ -9,6 +9,17 @@ public class Tests
     LatexMathToMathMLConverter latex2MathMLConverter;
 
     [Test]
+    public void Test1()
+    {
+        var latexExpression =
+            @"\begin{document} $R(f)(\theta, s) = \int_{-\infty}^{\infty} f(x(t), y(t)) \, dt$ \end{document}";
+        var parser = new LatexParser(latexExpression, new LatexMathToMathMLConverter());
+        var root = parser.Root;
+        var convert = root.Convert();
+        File.WriteAllText("output.mml", convert);
+    }
+    
+    [Test]
     public void ConvertXSquaredReturnXSquaredInMML()
     {
         String latexExpression = "$x^2$";

@@ -16,7 +16,9 @@
 */
 
 using System;
+using System.Diagnostics;
 using System.Text;
+using Microsoft.Extensions.Logging;
 
 namespace LatexToMathML
 {
@@ -25,6 +27,13 @@ namespace LatexToMathML
     /// </summary>
     internal sealed class RootConverter : BaseConverter
     {
+        private ILogger? _logger;
+
+        public RootConverter(ILogger? logger = null)
+        {
+            _logger = logger;
+        }
+
         /// <summary>
         /// Gets the type of the corresponding expression (ExpressionType.Root).
         /// </summary>
@@ -32,7 +41,7 @@ namespace LatexToMathML
         {
             get { return ExpressionType.Root; }
         }
-			
+
         /// <summary>
         /// Performs the conversion procedure.
         /// </summary>
@@ -40,7 +49,7 @@ namespace LatexToMathML
         /// <returns>The conversion result.</returns>
         public override string Convert(LatexExpression expr)
         {
-			var bodyBuilder = new StringBuilder();
+            var bodyBuilder = new StringBuilder();
 
             // Convert the {document} block
             LatexExpression documentExpression = expr.FindDocument();
@@ -58,15 +67,14 @@ namespace LatexToMathML
 #if DEBUG
                     throw;
 #else
-                Log.Error("Failed to convert the document block", e);
+                    _logger?.LogError("Failed to convert the document block", e);
 #endif
                 }
                 // ReSharper restore RedundantCatchClause
                 // ReSharper restore RedundantCatchClause
             }
 
-			return bodyBuilder.ToString();
+            return bodyBuilder.ToString();
         }
-			
     }
 }

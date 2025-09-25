@@ -1,2 +1,10 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AString_002Ecs_002Fl_003AC_0021_003FUsers_003Fjie_002Ezhu_003FAppData_003FRoaming_003FJetBrains_003FRider2025_002E2_003Fresharper_002Dhost_003FDecompilerCache_003Fdecompiler_003F6dadd22e019742ce80aaefef99855be0142288_003F4f_003F96902e76_003FString_002Ecs/@EntryIndexedValue">ForceIncluded</s:String></wpf:ResourceDictionary>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AString_002Ecs_002Fl_003AC_0021_003FUsers_003Fjie_002Ezhu_003FAppData_003FRoaming_003FJetBrains_003FRider2025_002E2_003Fresharper_002Dhost_003FDecompilerCache_003Fdecompiler_003F6dadd22e019742ce80aaefef99855be0142288_003F4f_003F96902e76_003FString_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=070c97b1_002D0673_002D430c_002Dab1c_002D1d0ac8ef6ac5/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="ConvertXSquaredReturnXSquaredInMML" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::C274F6A7-8F42-40DB-8311-E6690E3BDCE9::net8.0::LatexToMathML.Test.Tests.ConvertXSquaredReturnXSquaredInMML&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::C274F6A7-8F42-40DB-8311-E6690E3BDCE9::net8.0::LatexToMathML.Test.Tests.ConvertFracXYPlus2ReturnsFracXYPlus2InMML&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::C274F6A7-8F42-40DB-8311-E6690E3BDCE9::net8.0::LatexToMathML.Test.Tests.ConvertOperatorsSinCosReturnsSinCos&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::C274F6A7-8F42-40DB-8311-E6690E3BDCE9::net8.0::LatexToMathML.Test.Tests.Test1&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
