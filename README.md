@@ -1,6 +1,7 @@
 This is a project from old source [LatexMath2MathML](https://github.com/smallgreycreatures/LatexMath2MathML)
 I convert it to .Net Standard Library and then publish in nuget.
-[![NuGet version (LatexToMathML )](https://img.shields.io/nuget/dt/LatexToMathML)](https://www.nuget.org/packages/LatexToMathML)
+[![Nuget](https://img.shields.io/nuget/v/LatexToMathML?color=purple)](https://www.nuget.org/packages/LatexToMathML/)
+[![NuGet version (LatexToMathML)](https://img.shields.io/nuget/dt/LatexToMathML)](https://www.nuget.org/packages/LatexToMathML)
 
 # LatexMath2MathML
 This is a version of Latex2MathML(https://latex2mathml.codeplex.com) with subtracted functionality. This version aims at only handling the Mathematic of LaTeX and convert it to MathML.
